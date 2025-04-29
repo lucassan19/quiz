@@ -1,0 +1,13 @@
+.App {
+  text-align: center; /*/alinhar o texto no centro*/
+  padding-top: 3rem; /*/ espaçamento superior*/
+  display: flex; /*/ exibir como flexbox*/
+  flex-direction: column; /*/ direção do flexbox*/
+  align-items: center; /*/ alinhar os itens no centro*/
+  justify-content: center; /*/ justificar o conteúdo no centro*/
+}
+
+.App h1 {
+  margin-bottom: 2rem; /*/ espaçamento inferior*/
+  font-size: 2.5rem; /*/ tamanho da fonte*/
+}

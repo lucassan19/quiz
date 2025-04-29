@@ -1,0 +1,19 @@
+#welcome {
+    text-align: center; /*/* alinhar o texto no centro*/
+    max-width: 500px; /*/* largura máxima*/
+    margin: 0 auto; /*/* centralizar horizontalmente*/
+}
+
+#welcome h2,
+#welcome p {
+    margin-bottom: 1rem; /*/* espaçamento inferior*/
+    font-size: 1.5rem; /*/* tamanho da fonte*/
+}
+
+#welcome p {
+    color: #8435de; /*/* cor do texto*/
+}
+
+#welcome img {
+    margin-top: 2rem; /*/* espaçamento superior*/
+}

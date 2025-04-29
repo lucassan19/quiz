@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: black; /*/ cor do texto*/
+}
+
+body,
+html {
+  min-height: 100vh; /*/altura miníma da página*/
+  height: 100%; /*/ altura da página*/
+  background-color: #f8f9fc; /*/ cor de fundo*/
+}
+
+img {
+  max-width: 100%; /*/ largura máxima da imagem*/
+  height: auto; /*/ altura automática da imagem*/
+  
+}
+
+button {
+  font-weight: bold; /*/ expessura da fonte*/
+  font-size: 1.2rem; /*/ tamanho da fonte*/
+  cursor: pointer; /*/ cursor do mouse*/
+  padding: .08rem 1.5rem; /*/ espaçamento interno do botão*/
+  background: linear-gradient(90deg,
+ rgba(132, 53, 222, 1) 0%, rgba(184, 84, 232, 1) 100%); /*/ cor do botão*/ 
+ border-radius: 3rem; /*/ borda do botão*/
+ border: none; /*/ sem borda*/
+}
+
+button:hover {
+  background: linear-gradient(90deg,
+ rgba(184, 84, 232, 1) 100%, rgba(132, 53, 222, 1) 0%); /*/ cor do botão ao passar o mouse*/
+}
+button:active {
+  background: linear-gradient(90deg,
+ rgba(132, 53, 222, 1) 0%, rgba(184, 84, 232, 1) 100%); /*/ cor do botão ao clicar*/
+}
+ 
